@@ -1,0 +1,593 @@
+{
+    "regions": [
+        {
+            "name": "La Noscea",
+            "locations": [
+                {
+                    "name": "Middle La Noscea",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Lower La Noscea",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Eastern La Noscea",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Western La Noscea",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Upper La Noscea",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Outer La Noscea",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Limsa Lominsa Lower Decks",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Limsa Lominsa Upper Decks",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Wolves' Den Pier",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Mist",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Rogues' Guild",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Mizzenmast Inn",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Command Room",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "The Topmast",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Maelstrom Barracks",
+                    "connections": [
+                        // Add connections here
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "The Black Shroud",
+            "locations": [
+                {
+                    "name": "Central Shroud",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "East Shroud",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "South Shroud",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "North Shroud",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Old Gridania",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "New Gridania",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "The Lavender Beds",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "The Roost",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Lotus Stand",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Twin Adder Barracks",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Lily Hills",
+                    "connections": [
+                        // Add connections here
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Thanalan",
+            "locations": [
+                {
+                    "name": "Western Thanalan",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Central Thanalan",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Eastern Thanalan",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Southern Thanalan",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Northern Thanalan",
+                    "connections": [
+                        // Add connections here
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Coerthas",
+            "locations": [
+                {
+                    "name": "Coerthas Central Highlands",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Coerthas Western Highlands",
+                    "connections": [
+                        // Add connections here
+                    ]
+                }
+            ]
+        },
+         {
+            "name": "Mor Dhona",
+            "locations": [
+                {
+                    "name": "Mor Dhona",
+                    "connections": [
+                        // Add connections here if applicable
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Abalathia's Spine",
+            "locations": [
+                {
+                    "name": "The Sea of Clouds",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Azys Lla",
+                    "connections": [
+                        // Add connections here
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Dravania",
+            "locations": [
+                {
+                    "name": "The Dravanian Forelands",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "The Churning Mists",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "The Dravanian Hinterlands",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Idyllshire",
+                    "connections": [
+                        // Add connections here
+                    ]
+                }
+            ]
+        },
+         {
+            "name": "Gyr Abania",
+            "locations": [
+                {
+                    "name": "The Fringes",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "The Peaks",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "The Lochs",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Rhalgr's Reach",
+                    "connections": [
+                        // Add connections here
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Hingashi",
+            "locations": [
+                {
+                    "name": "Kugane",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Shirogane",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Bokairo Inn",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Ruby Bazaar Offices",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Kobai Goten",
+                    "connections": [
+                        // Add connections here
+                    ]
+                }
+            ]
+        },
+         {
+            "name": "Norvrandt",
+            "locations": [
+                {
+                    "name": "Lakeland",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Kholusia",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Amh Araeng",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Il Mheg",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "The Rak'tika Greatwood",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "The Tempest",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "The Crystarium",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Eulmore",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "The Pendants",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "The Ocular",
+                    "connections": [
+                        // Add connections here
+                    ]
+                }
+            ]
+        },
+         {
+            "name": "The Northern Empty",
+            "locations": [
+                {
+                    "name": "Labyrinthos",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Old Sharlayan",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "The Andron",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Main Hall",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Restricted Archives",
+                    "connections": [
+                        // Add connections here
+                    ]
+                }
+            ]
+        },
+          {
+            "name": "Ilsabard",
+            "locations": [
+                {
+                    "name": "Thavnair",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Garlemald",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Radz-at-Han",
+                    "connections": [
+                        // Add connections here
+                    ]
+                }
+            ]
+        },
+         {
+            "name": "The Sea of Stars",
+            "locations": [
+                {
+                    "name": "Mare Lamentorum",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Ultima Thule",
+                    "connections": [
+                        // Add connections here
+                    ]
+                }
+            ]
+        },
+         {
+            "name": "The World Unsundered",
+            "locations": [
+                {
+                    "name": "Elpis",
+                    "connections": [
+                        // Add connections here if applicable
+                    ]
+                }
+            ]
+        },
+          {
+            "name": "Yok Tural",
+            "locations": [
+                {
+                    "name": "Urqopacha",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Kozama'uka",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Yak T'el",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Tuliyollal",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "The For'ard Cabins",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Sunperch",
+                    "connections": [
+                        // Add connections here
+                    ]
+                }
+            ]
+        },
+          {
+            "name": "Xak Tural",
+            "locations": [
+                {
+                    "name": "Shaaloani",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Heritage Found",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Solution Nine",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "The Backroom",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Greenroom",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Tritails Training",
+                    "connections": [
+                        // Add connections here
+                    ]
+                },
+                {
+                    "name": "Break Room",
+                    "connections": [
+                        // Add connections here
+                    ]
+                }
+            ]
+        },
+         {
+            "name": "Unlost World",
+            "locations": [
+                {
+                    "name": "Living Memory",
+                    "connections": [
+                        // Add connections here if applicable
+                    ]
+                }
+            ]
+        }
+    ]
+}
