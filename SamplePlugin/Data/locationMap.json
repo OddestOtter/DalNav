@@ -6,91 +6,114 @@
                 {
                     "name": "Middle La Noscea",
                     "connections": [
-                        // Add connections here
+                        "Limsa Lominsa Lower Decks",
+                        "Western La Noscea",
+                        "Eastern La Noscea"
                     ]
                 },
                 {
                     "name": "Lower La Noscea",
                     "connections": [
-                        // Add connections here
+                        "Limsa Lominsa Upper Decks",
+                        "Middle La Noscea",
+                        "Eastern La Noscea",
+                        "Mist",
+                        "Western La Noscea",
+                        "Wolves' Den Pier",
+                        "Unnamed Island"
                     ]
                 },
                 {
                     "name": "Eastern La Noscea",
                     "connections": [
-                        // Add connections here
+                        "Lower La Noscea",
+                        "Limsa Lominsa Lower Decks",
+                        "Middle La Noscea",
+                        "Upper La Noscea"
                     ]
                 },
                 {
                     "name": "Western La Noscea",
                     "connections": [
-                        // Add connections here
+                        "Middle La Noscea (E)",
+                        "Upper La Noscea (N)",
+                        "Limsa Lominsa Lower Decks (S)",
+                        "Lower La Noscea (S)"
                     ]
                 },
                 {
                     "name": "Upper La Noscea",
                     "connections": [
-                        // Add connections here
+                        "Outer La Noscea (N)",
+                        "Eastern La Noscea (SE)",
+                        "Western La Noscea (SW)"
                     ]
                 },
                 {
                     "name": "Outer La Noscea",
                     "connections": [
-                        // Add connections here
+                        "Upper La Noscea (SW) (SE)"
                     ]
                 },
                 {
                     "name": "Limsa Lominsa Lower Decks",
                     "connections": [
-                        // Add connections here
+                        "Limsa Lominsa The Upper Decks",
+                        "Mist",
+                        "Middle La Noscea",
+                        "Western La Noscea",
+                        "Eastern La Noscea",
+                        "Western Thanalan"
                     ]
                 },
                 {
                     "name": "Limsa Lominsa Upper Decks",
                     "connections": [
-                        // Add connections here
+                        "Limsa Lominsa The Lower Decks",
+                        "Lower La Noscea"
                     ]
                 },
                 {
                     "name": "Wolves' Den Pier",
                     "connections": [
-                        // Add connections here
+                        "Moraby Drydocks Landing (SE)"
                     ]
                 },
                 {
                     "name": "Mist",
                     "connections": [
-                        // Add connections here
+                        "Lower La Noscea (N)",
+                        "Limsa Lominsa Lower Decks (S)"
                     ]
                 },
                 {
                     "name": "Rogues' Guild",
                     "connections": [
-                        // Add connections here
+                        "Limsa Lominsa Lower Decks"
                     ]
                 },
                 {
                     "name": "Mizzenmast Inn",
                     "connections": [
-                        // Add connections here
+                        "Limsa Lominsa Upper Decks"
                     ]
                 },
                 {
                     "name": "Command Room",
                     "connections": [
-                        // Add connections here
+                        "Limsa Lominsa Upper Decks"
                     ]
                 },
                 {
                     "name": "The Topmast",
                     "connections": [
-                        // Add connections here
+                        "Limsa Lominsa Upper Decks"
                     ]
                 },
                 {
                     "name": "Maelstrom Barracks",
                     "connections": [
-                        // Add connections here
+                        "Limsa Lominsa Upper Decks"
                     ]
                 }
             ]
