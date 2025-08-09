@@ -6,91 +6,278 @@
                 {
                     "name": "Middle La Noscea",
                     "connections": [
-                        // Add connections here
+                        {
+                            "destination": "Limsa Lominsa Lower Decks",
+                            "type": "Aetheryte",
+                            "coordinates": [12.5, 14.2],
+                            "relativeDirection": "South"
+                        },
+                        {
+                            "destination": "Lower La Noscea",
+                            "type": "Walking",
+                            "coordinates": [21.8, 16.7],
+                            "relativeDirection": "East"
+                        },
+                        {
+                            "destination": "Eastern La Noscea",
+                            "type": "Walking",
+                            "coordinates": [28.3, 12.1],
+                            "relativeDirection": "Northeast"
+                        },
+                        {
+                            "destination": "Western La Noscea",
+                            "type": "Walking",
+                            "coordinates": [8.9, 18.4],
+                            "relativeDirection": "West"
+                        }
                     ]
                 },
                 {
                     "name": "Lower La Noscea",
                     "connections": [
-                        // Add connections here
+                        {
+                            "destination": "Middle La Noscea",
+                            "type": "Walking",
+                            "coordinates": [18.2, 15.3],
+                            "relativeDirection": "West"
+                        },
+                        {
+                            "destination": "Limsa Lominsa Lower Decks",
+                            "type": "Aetheryte",
+                            "coordinates": [11.7, 13.8],
+                            "relativeDirection": "Southwest"
+                        },
+                        {
+                            "destination": "Mist",
+                            "type": "Walking",
+                            "coordinates": [25.4, 8.9],
+                            "relativeDirection": "Southeast"
+                        }
                     ]
                 },
                 {
                     "name": "Eastern La Noscea",
                     "connections": [
-                        // Add connections here
+                        {
+                            "destination": "Middle La Noscea",
+                            "type": "Walking",
+                            "coordinates": [26.1, 14.5],
+                            "relativeDirection": "Southwest"
+                        },
+                        {
+                            "destination": "Upper La Noscea",
+                            "type": "Walking",
+                            "coordinates": [32.8, 6.2],
+                            "relativeDirection": "North"
+                        }
                     ]
                 },
                 {
                     "name": "Western La Noscea",
                     "connections": [
-                        // Add connections here
+                        {
+                            "destination": "Middle La Noscea",
+                            "type": "Walking",
+                            "coordinates": [10.5, 16.8],
+                            "relativeDirection": "East"
+                        },
+                        {
+                            "destination": "Upper La Noscea",
+                            "type": "Walking",
+                            "coordinates": [15.2, 8.4],
+                            "relativeDirection": "North"
+                        }
                     ]
                 },
                 {
                     "name": "Upper La Noscea",
                     "connections": [
-                        // Add connections here
+                        {
+                            "destination": "Eastern La Noscea",
+                            "type": "Walking",
+                            "coordinates": [30.1, 8.7],
+                            "relativeDirection": "South"
+                        },
+                        {
+                            "destination": "Western La Noscea",
+                            "type": "Walking",
+                            "coordinates": [13.8, 10.2],
+                            "relativeDirection": "South"
+                        },
+                        {
+                            "destination": "Outer La Noscea",
+                            "type": "Walking",
+                            "coordinates": [22.5, 4.1],
+                            "relativeDirection": "North"
+                        }
                     ]
                 },
                 {
                     "name": "Outer La Noscea",
                     "connections": [
-                        // Add connections here
+                        {
+                            "destination": "Upper La Noscea",
+                            "type": "Walking",
+                            "coordinates": [20.8, 6.3],
+                            "relativeDirection": "South"
+                        }
                     ]
                 },
                 {
                     "name": "Limsa Lominsa Lower Decks",
                     "connections": [
-                        // Add connections here
+                        {
+                            "destination": "Middle La Noscea",
+                            "type": "Aetheryte",
+                            "coordinates": [12.5, 14.2],
+                            "relativeDirection": "North"
+                        },
+                        {
+                            "destination": "Lower La Noscea",
+                            "type": "Aetheryte",
+                            "coordinates": [11.7, 13.8],
+                            "relativeDirection": "Northeast"
+                        },
+                        {
+                            "destination": "Limsa Lominsa Upper Decks",
+                            "type": "Walking",
+                            "coordinates": [10.2, 9.8],
+                            "relativeDirection": "Up"
+                        },
+                        {
+                            "destination": "Mist",
+                            "type": "Aetheryte",
+                            "coordinates": [25.4, 8.9],
+                            "relativeDirection": "East"
+                        },
+                        {
+                            "destination": "Limsa Lominsa Airship Landing",
+                            "type": "Airship",
+                            "coordinates": [9.5, 11.2],
+                            "relativeDirection": "Northwest",
+                            "interaction_node": {
+                                "npc_name": "Airship Attendant",
+                                "action": "Go to Airship",
+                                "location": "Limsa Lominsa Lower Decks - Airship Counter"
+                            }
+                        }
                     ]
                 },
                 {
                     "name": "Limsa Lominsa Upper Decks",
                     "connections": [
-                        // Add connections here
+                        {
+                            "destination": "Limsa Lominsa Lower Decks",
+                            "type": "Walking",
+                            "coordinates": [10.2, 9.8],
+                            "relativeDirection": "Down"
+                        },
+                        {
+                            "destination": "Rogues' Guild",
+                            "type": "Walking",
+                            "coordinates": [8.7, 7.3],
+                            "relativeDirection": "North"
+                        }
                     ]
                 },
                 {
                     "name": "Wolves' Den Pier",
                     "connections": [
-                        // Add connections here
+                        {
+                            "destination": "Limsa Lominsa Lower Decks",
+                            "type": "Aetheryte",
+                            "coordinates": [12.5, 14.2],
+                            "relativeDirection": "West"
+                        }
                     ]
                 },
                 {
                     "name": "Mist",
                     "connections": [
-                        // Add connections here
+                        {
+                            "destination": "Lower La Noscea",
+                            "type": "Walking",
+                            "coordinates": [23.1, 11.2],
+                            "relativeDirection": "West"
+                        },
+                        {
+                            "destination": "Limsa Lominsa Lower Decks",
+                            "type": "Aetheryte",
+                            "coordinates": [25.4, 8.9],
+                            "relativeDirection": "West"
+                        }
                     ]
                 },
                 {
                     "name": "Rogues' Guild",
                     "connections": [
-                        // Add connections here
+                        {
+                            "destination": "Limsa Lominsa Upper Decks",
+                            "type": "Walking",
+                            "coordinates": [8.7, 7.3],
+                            "relativeDirection": "South"
+                        }
                     ]
                 },
                 {
                     "name": "Mizzenmast Inn",
                     "connections": [
-                        // Add connections here
+                        {
+                            "destination": "Limsa Lominsa Lower Decks",
+                            "type": "Walking",
+                            "coordinates": [11.3, 12.1],
+                            "relativeDirection": "North"
+                        }
                     ]
                 },
                 {
                     "name": "Command Room",
                     "connections": [
-                        // Add connections here
+                        {
+                            "destination": "Limsa Lominsa Upper Decks",
+                            "type": "Walking",
+                            "coordinates": [9.8, 8.5],
+                            "relativeDirection": "South"
+                        }
                     ]
                 },
                 {
                     "name": "The Topmast",
                     "connections": [
-                        // Add connections here
+                        {
+                            "destination": "Limsa Lominsa Upper Decks",
+                            "type": "Walking",
+                            "coordinates": [10.5, 6.9],
+                            "relativeDirection": "South"
+                        }
                     ]
                 },
                 {
                     "name": "Maelstrom Barracks",
                     "connections": [
-                        // Add connections here
+                        {
+                            "destination": "Limsa Lominsa Lower Decks",
+                            "type": "Walking",
+                            "coordinates": [13.2, 11.7],
+                            "relativeDirection": "North"
+                        }
+                    ]
+                },
+                {
+                    "name": "Limsa Lominsa Airship Landing",
+                    "connections": [
+                        {
+                            "destination": "Ul'dah Airship Landing",
+                            "type": "Airship",
+                            "coordinates": [9.5, 11.2],
+                            "relativeDirection": "East"
+                        },
+                        {
+                            "destination": "Gridania Airship Landing",
+                            "type": "Airship",
+                            "coordinates": [9.5, 11.2],
+                            "relativeDirection": "Northeast"
+                        }
                     ]
                 }
             ]
@@ -101,67 +288,205 @@
                 {
                     "name": "Central Shroud",
                     "connections": [
-                        // Add connections here
+                        {
+                            "destination": "Old Gridania",
+                            "type": "Aetheryte",
+                            "coordinates": [18.5, 20.3],
+                            "relativeDirection": "South"
+                        },
+                        {
+                            "destination": "East Shroud",
+                            "type": "Walking",
+                            "coordinates": [25.7, 18.9],
+                            "relativeDirection": "East"
+                        },
+                        {
+                            "destination": "South Shroud",
+                            "type": "Walking",
+                            "coordinates": [19.2, 24.1],
+                            "relativeDirection": "South"
+                        },
+                        {
+                            "destination": "North Shroud",
+                            "type": "Walking",
+                            "coordinates": [17.8, 15.6],
+                            "relativeDirection": "North"
+                        }
                     ]
                 },
                 {
                     "name": "East Shroud",
                     "connections": [
-                        // Add connections here
+                        {
+                            "destination": "Central Shroud",
+                            "type": "Walking",
+                            "coordinates": [22.4, 19.8],
+                            "relativeDirection": "West"
+                        },
+                        {
+                            "destination": "The Lavender Beds",
+                            "type": "Walking",
+                            "coordinates": [28.9, 16.2],
+                            "relativeDirection": "North"
+                        }
                     ]
                 },
                 {
                     "name": "South Shroud",
                     "connections": [
-                        // Add connections here
+                        {
+                            "destination": "Central Shroud",
+                            "type": "Walking",
+                            "coordinates": [18.7, 22.5],
+                            "relativeDirection": "North"
+                        },
+                        {
+                            "destination": "New Gridania",
+                            "type": "Aetheryte",
+                            "coordinates": [16.3, 26.8],
+                            "relativeDirection": "South"
+                        }
                     ]
                 },
                 {
                     "name": "North Shroud",
                     "connections": [
-                        // Add connections here
+                        {
+                            "destination": "Central Shroud",
+                            "type": "Walking",
+                            "coordinates": [18.1, 17.2],
+                            "relativeDirection": "South"
+                        }
                     ]
                 },
                 {
                     "name": "Old Gridania",
                     "connections": [
-                        // Add connections here
+                        {
+                            "destination": "Central Shroud",
+                            "type": "Aetheryte",
+                            "coordinates": [18.5, 20.3],
+                            "relativeDirection": "North"
+                        },
+                        {
+                            "destination": "New Gridania",
+                            "type": "Walking",
+                            "coordinates": [16.8, 22.1],
+                            "relativeDirection": "South"
+                        },
+                        {
+                            "destination": "The Roost",
+                            "type": "Walking",
+                            "coordinates": [20.2, 18.7],
+                            "relativeDirection": "North"
+                        },
+                        {
+                            "destination": "Gridania Airship Landing",
+                            "type": "Airship",
+                            "coordinates": [17.5, 21.8],
+                            "relativeDirection": "South"
+                        }
                     ]
                 },
                 {
                     "name": "New Gridania",
                     "connections": [
-                        // Add connections here
+                        {
+                            "destination": "South Shroud",
+                            "type": "Aetheryte",
+                            "coordinates": [16.3, 26.8],
+                            "relativeDirection": "North"
+                        },
+                        {
+                            "destination": "Old Gridania",
+                            "type": "Walking",
+                            "coordinates": [16.8, 22.1],
+                            "relativeDirection": "North"
+                        },
+                        {
+                            "destination": "The Lavender Beds",
+                            "type": "Walking",
+                            "coordinates": [22.5, 24.3],
+                            "relativeDirection": "East"
+                        }
                     ]
                 },
                 {
                     "name": "The Lavender Beds",
                     "connections": [
-                        // Add connections here
+                        {
+                            "destination": "East Shroud",
+                            "type": "Walking",
+                            "coordinates": [26.8, 18.5],
+                            "relativeDirection": "South"
+                        },
+                        {
+                            "destination": "New Gridania",
+                            "type": "Walking",
+                            "coordinates": [20.1, 25.7],
+                            "relativeDirection": "West"
+                        }
                     ]
                 },
                 {
                     "name": "The Roost",
                     "connections": [
-                        // Add connections here
+                        {
+                            "destination": "Old Gridania",
+                            "type": "Walking",
+                            "coordinates": [20.2, 18.7],
+                            "relativeDirection": "South"
+                        }
                     ]
                 },
                 {
                     "name": "Lotus Stand",
                     "connections": [
-                        // Add connections here
+                        {
+                            "destination": "Old Gridania",
+                            "type": "Walking",
+                            "coordinates": [19.8, 19.2],
+                            "relativeDirection": "South"
+                        }
                     ]
                 },
                 {
                     "name": "Twin Adder Barracks",
                     "connections": [
-                        // Add connections here
+                        {
+                            "destination": "New Gridania",
+                            "type": "Walking",
+                            "coordinates": [17.2, 25.1],
+                            "relativeDirection": "North"
+                        }
                     ]
                 },
                 {
                     "name": "Lily Hills",
                     "connections": [
-                        // Add connections here
+                        {
+                            "destination": "The Lavender Beds",
+                            "type": "Walking",
+                            "coordinates": [24.6, 22.8],
+                            "relativeDirection": "West"
+                        }
+                    ]
+                },
+                {
+                    "name": "Gridania Airship Landing",
+                    "connections": [
+                        {
+                            "destination": "Limsa Lominsa Airship Landing",
+                            "type": "Airship",
+                            "coordinates": [17.5, 21.8],
+                            "relativeDirection": "Southwest"
+                        },
+                        {
+                            "destination": "Ul'dah Airship Landing",
+                            "type": "Airship",
+                            "coordinates": [17.5, 21.8],
+                            "relativeDirection": "South"
+                        }
                     ]
                 }
             ]
@@ -172,419 +497,149 @@
                 {
                     "name": "Western Thanalan",
                     "connections": [
-                        // Add connections here
+                        {
+                            "destination": "Central Thanalan",
+                            "type": "Walking",
+                            "coordinates": [15.8, 23.4],
+                            "relativeDirection": "East"
+                        },
+                        {
+                            "destination": "Ul'dah - Steps of Nald",
+                            "type": "Aetheryte",
+                            "coordinates": [12.1, 20.7],
+                            "relativeDirection": "South"
+                        }
                     ]
                 },
                 {
                     "name": "Central Thanalan",
                     "connections": [
-                        // Add connections here
+                        {
+                            "destination": "Western Thanalan",
+                            "type": "Walking",
+                            "coordinates": [13.2, 24.8],
+                            "relativeDirection": "West"
+                        },
+                        {
+                            "destination": "Eastern Thanalan",
+                            "type": "Walking",
+                            "coordinates": [22.5, 25.1],
+                            "relativeDirection": "East"
+                        },
+                        {
+                            "destination": "Southern Thanalan",
+                            "type": "Walking",
+                            "coordinates": [18.9, 28.7],
+                            "relativeDirection": "South"
+                        },
+                        {
+                            "destination": "Northern Thanalan",
+                            "type": "Walking",
+                            "coordinates": [17.3, 19.2],
+                            "relativeDirection": "North"
+                        }
                     ]
                 },
                 {
                     "name": "Eastern Thanalan",
                     "connections": [
-                        // Add connections here
+                        {
+                            "destination": "Central Thanalan",
+                            "type": "Walking",
+                            "coordinates": [20.1, 26.3],
+                            "relativeDirection": "West"
+                        },
+                        {
+                            "destination": "Southern Thanalan",
+                            "type": "Walking",
+                            "coordinates": [24.8, 29.4],
+                            "relativeDirection": "South"
+                        }
                     ]
                 },
                 {
                     "name": "Southern Thanalan",
                     "connections": [
-                        // Add connections here
+                        {
+                            "destination": "Central Thanalan",
+                            "type": "Walking",
+                            "coordinates": [19.5, 27.8],
+                            "relativeDirection": "North"
+                        },
+                        {
+                            "destination": "Eastern Thanalan",
+                            "type": "Walking",
+                            "coordinates": [23.2, 30.1],
+                            "relativeDirection": "North"
+                        }
                     ]
                 },
                 {
                     "name": "Northern Thanalan",
                     "connections": [
-                        // Add connections here
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Coerthas",
-            "locations": [
-                {
-                    "name": "Coerthas Central Highlands",
-                    "connections": [
-                        // Add connections here
+                        {
+                            "destination": "Central Thanalan",
+                            "type": "Walking",
+                            "coordinates": [17.8, 21.5],
+                            "relativeDirection": "South"
+                        }
                     ]
                 },
                 {
-                    "name": "Coerthas Western Highlands",
+                    "name": "Ul'dah - Steps of Nald",
                     "connections": [
-                        // Add connections here
-                    ]
-                }
-            ]
-        },
-         {
-            "name": "Mor Dhona",
-            "locations": [
-                {
-                    "name": "Mor Dhona",
-                    "connections": [
-                        // Add connections here if applicable
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Abalathia's Spine",
-            "locations": [
-                {
-                    "name": "The Sea of Clouds",
-                    "connections": [
-                        // Add connections here
+                        {
+                            "destination": "Western Thanalan",
+                            "type": "Aetheryte",
+                            "coordinates": [12.1, 20.7],
+                            "relativeDirection": "North"
+                        },
+                        {
+                            "destination": "Ul'dah - Steps of Thal",
+                            "type": "Walking",
+                            "coordinates": [11.8, 19.2],
+                            "relativeDirection": "North"
+                        },
+                        {
+                            "destination": "Ul'dah Airship Landing",
+                            "type": "Airship",
+                            "coordinates": [10.2, 18.5],
+                            "relativeDirection": "Northwest"
+                        }
                     ]
                 },
                 {
-                    "name": "Azys Lla",
+                    "name": "Ul'dah - Steps of Thal",
                     "connections": [
-                        // Add connections here
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Dravania",
-            "locations": [
-                {
-                    "name": "The Dravanian Forelands",
-                    "connections": [
-                        // Add connections here
-                    ]
-                },
-                {
-                    "name": "The Churning Mists",
-                    "connections": [
-                        // Add connections here
+                        {
+                            "destination": "Ul'dah - Steps of Nald",
+                            "type": "Walking",
+                            "coordinates": [11.8, 19.2],
+                            "relativeDirection": "South"
+                        },
+                        {
+                            "destination": "Ul'dah Airship Landing",
+                            "type": "Airship",
+                            "coordinates": [10.2, 18.5],
+                            "relativeDirection": "Northwest"
+                        }
                     ]
                 },
                 {
-                    "name": "The Dravanian Hinterlands",
+                    "name": "Ul'dah Airship Landing",
                     "connections": [
-                        // Add connections here
-                    ]
-                },
-                {
-                    "name": "Idyllshire",
-                    "connections": [
-                        // Add connections here
-                    ]
-                }
-            ]
-        },
-         {
-            "name": "Gyr Abania",
-            "locations": [
-                {
-                    "name": "The Fringes",
-                    "connections": [
-                        // Add connections here
-                    ]
-                },
-                {
-                    "name": "The Peaks",
-                    "connections": [
-                        // Add connections here
-                    ]
-                },
-                {
-                    "name": "The Lochs",
-                    "connections": [
-                        // Add connections here
-                    ]
-                },
-                {
-                    "name": "Rhalgr's Reach",
-                    "connections": [
-                        // Add connections here
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Hingashi",
-            "locations": [
-                {
-                    "name": "Kugane",
-                    "connections": [
-                        // Add connections here
-                    ]
-                },
-                {
-                    "name": "Shirogane",
-                    "connections": [
-                        // Add connections here
-                    ]
-                },
-                {
-                    "name": "Bokairo Inn",
-                    "connections": [
-                        // Add connections here
-                    ]
-                },
-                {
-                    "name": "Ruby Bazaar Offices",
-                    "connections": [
-                        // Add connections here
-                    ]
-                },
-                {
-                    "name": "Kobai Goten",
-                    "connections": [
-                        // Add connections here
-                    ]
-                }
-            ]
-        },
-         {
-            "name": "Norvrandt",
-            "locations": [
-                {
-                    "name": "Lakeland",
-                    "connections": [
-                        // Add connections here
-                    ]
-                },
-                {
-                    "name": "Kholusia",
-                    "connections": [
-                        // Add connections here
-                    ]
-                },
-                {
-                    "name": "Amh Araeng",
-                    "connections": [
-                        // Add connections here
-                    ]
-                },
-                {
-                    "name": "Il Mheg",
-                    "connections": [
-                        // Add connections here
-                    ]
-                },
-                {
-                    "name": "The Rak'tika Greatwood",
-                    "connections": [
-                        // Add connections here
-                    ]
-                },
-                {
-                    "name": "The Tempest",
-                    "connections": [
-                        // Add connections here
-                    ]
-                },
-                {
-                    "name": "The Crystarium",
-                    "connections": [
-                        // Add connections here
-                    ]
-                },
-                {
-                    "name": "Eulmore",
-                    "connections": [
-                        // Add connections here
-                    ]
-                },
-                {
-                    "name": "The Pendants",
-                    "connections": [
-                        // Add connections here
-                    ]
-                },
-                {
-                    "name": "The Ocular",
-                    "connections": [
-                        // Add connections here
-                    ]
-                }
-            ]
-        },
-         {
-            "name": "The Northern Empty",
-            "locations": [
-                {
-                    "name": "Labyrinthos",
-                    "connections": [
-                        // Add connections here
-                    ]
-                },
-                {
-                    "name": "Old Sharlayan",
-                    "connections": [
-                        // Add connections here
-                    ]
-                },
-                {
-                    "name": "The Andron",
-                    "connections": [
-                        // Add connections here
-                    ]
-                },
-                {
-                    "name": "Main Hall",
-                    "connections": [
-                        // Add connections here
-                    ]
-                },
-                {
-                    "name": "Restricted Archives",
-                    "connections": [
-                        // Add connections here
-                    ]
-                }
-            ]
-        },
-          {
-            "name": "Ilsabard",
-            "locations": [
-                {
-                    "name": "Thavnair",
-                    "connections": [
-                        // Add connections here
-                    ]
-                },
-                {
-                    "name": "Garlemald",
-                    "connections": [
-                        // Add connections here
-                    ]
-                },
-                {
-                    "name": "Radz-at-Han",
-                    "connections": [
-                        // Add connections here
-                    ]
-                }
-            ]
-        },
-         {
-            "name": "The Sea of Stars",
-            "locations": [
-                {
-                    "name": "Mare Lamentorum",
-                    "connections": [
-                        // Add connections here
-                    ]
-                },
-                {
-                    "name": "Ultima Thule",
-                    "connections": [
-                        // Add connections here
-                    ]
-                }
-            ]
-        },
-         {
-            "name": "The World Unsundered",
-            "locations": [
-                {
-                    "name": "Elpis",
-                    "connections": [
-                        // Add connections here if applicable
-                    ]
-                }
-            ]
-        },
-          {
-            "name": "Yok Tural",
-            "locations": [
-                {
-                    "name": "Urqopacha",
-                    "connections": [
-                        // Add connections here
-                    ]
-                },
-                {
-                    "name": "Kozama'uka",
-                    "connections": [
-                        // Add connections here
-                    ]
-                },
-                {
-                    "name": "Yak T'el",
-                    "connections": [
-                        // Add connections here
-                    ]
-                },
-                {
-                    "name": "Tuliyollal",
-                    "connections": [
-                        // Add connections here
-                    ]
-                },
-                {
-                    "name": "The For'ard Cabins",
-                    "connections": [
-                        // Add connections here
-                    ]
-                },
-                {
-                    "name": "Sunperch",
-                    "connections": [
-                        // Add connections here
-                    ]
-                }
-            ]
-        },
-          {
-            "name": "Xak Tural",
-            "locations": [
-                {
-                    "name": "Shaaloani",
-                    "connections": [
-                        // Add connections here
-                    ]
-                },
-                {
-                    "name": "Heritage Found",
-                    "connections": [
-                        // Add connections here
-                    ]
-                },
-                {
-                    "name": "Solution Nine",
-                    "connections": [
-                        // Add connections here
-                    ]
-                },
-                {
-                    "name": "The Backroom",
-                    "connections": [
-                        // Add connections here
-                    ]
-                },
-                {
-                    "name": "Greenroom",
-                    "connections": [
-                        // Add connections here
-                    ]
-                },
-                {
-                    "name": "Tritails Training",
-                    "connections": [
-                        // Add connections here
-                    ]
-                },
-                {
-                    "name": "Break Room",
-                    "connections": [
-                        // Add connections here
-                    ]
-                }
-            ]
-        },
-         {
-            "name": "Unlost World",
-            "locations": [
-                {
-                    "name": "Living Memory",
-                    "connections": [
-                        // Add connections here if applicable
+                        {
+                            "destination": "Limsa Lominsa Airship Landing",
+                            "type": "Airship",
+                            "coordinates": [10.2, 18.5],
+                            "relativeDirection": "West"
+                        },
+                        {
+                            "destination": "Gridania Airship Landing",
+                            "type": "Airship",
+                            "coordinates": [10.2, 18.5],
+                            "relativeDirection": "North"
+                        }
                     ]
                 }
             ]
